@@ -7,9 +7,11 @@
     <title>Primi passi home page</title>
 </head>
 <body>
-
-
-    
+   <ul>
+     <li><a href="{{route('home')}}">Home</a></li>
+     <li><a href="{{route('about')}}">About Us</a></li>
+     <li><a href="{{route('contact')}}">contact</a></li>
+   </ul>
     <h1>Hello World!</h1>
     <h4>{{ $name }} {{ $surname }}</h4>
     <ul>
